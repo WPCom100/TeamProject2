@@ -1,13 +1,13 @@
-package com.example.teamproject2.ui.dashboard
+package com.example.teamproject2.ui.courses
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class DashboardViewModel : ViewModel() {
+class CoursesViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "This is courses Fragment"
     }
     val text: LiveData<String> = _text
 }

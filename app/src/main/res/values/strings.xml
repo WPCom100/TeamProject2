@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">TeamProject2</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_map">Map</string>
+    <string name="title_Directory">Directory</string>
+    <string name="title_Calendar">Calendar</string>
+    <string name="title_Courses">Courses</string>
 </resources>

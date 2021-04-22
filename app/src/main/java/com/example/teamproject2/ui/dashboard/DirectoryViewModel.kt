@@ -1,13 +1,13 @@
-package com.example.teamproject2.ui.notifications
+package com.example.teamproject2.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class DirectoryViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "This is directory Fragment"
     }
     val text: LiveData<String> = _text
 }

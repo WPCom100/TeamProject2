@@ -1,4 +1,4 @@
-package com.example.teamproject2.ui.home
+package com.example.teamproject2.ui.calandar
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.teamproject2.R
 
-class HomeFragment : Fragment() {
+class CalendarFragment : Fragment() {
 
-    private lateinit var homeViewModel: HomeViewModel
+    private lateinit var notificationsViewModel: CalendarViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        homeViewModel =
-                ViewModelProvider(this).get(HomeViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
-        val textView: TextView = root.findViewById(R.id.text_home)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
+        notificationsViewModel =
+                ViewModelProvider(this).get(CalendarViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_calandar, container, false)
+        val textView: TextView = root.findViewById(R.id.text_calandar)
+        notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root

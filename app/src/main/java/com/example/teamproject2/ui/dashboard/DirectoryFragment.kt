@@ -1,4 +1,4 @@
-package com.example.teamproject2.ui.notifications
+package com.example.teamproject2.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,19 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.teamproject2.R
 
-class NotificationsFragment : Fragment() {
+class DirectoryFragment : Fragment() {
 
-    private lateinit var notificationsViewModel: NotificationsViewModel
+    private lateinit var directoryViewModel: DirectoryViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        notificationsViewModel =
-                ViewModelProvider(this).get(NotificationsViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_notifications, container, false)
-        val textView: TextView = root.findViewById(R.id.text_notifications)
-        notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
+        directoryViewModel = ViewModelProvider(this).get(DirectoryViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_directory, container, false)
+        val textView: TextView = root.findViewById(R.id.text_directory)
+        directoryViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root
