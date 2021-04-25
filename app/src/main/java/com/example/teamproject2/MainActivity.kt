@@ -1,6 +1,7 @@
 package com.example.teamproject2
 
 import android.os.Bundle
+import android.util.Log
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -22,5 +23,11 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_map, R.id.navigation_directory, R.id.navigation_calander, R.id.navigation_courses))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        Log.d("main", "created main")
+    }
+
+    fun LoadCalenderEvents(){
+
     }
 }

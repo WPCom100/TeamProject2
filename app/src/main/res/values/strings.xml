@@ -4,4 +4,9 @@
     <string name="title_Directory">Directory</string>
     <string name="title_Calendar">Calendar</string>
     <string name="title_Courses">Courses</string>
+
+    <string name="event_title">Title</string>
+    <string name="event_desc">Description</string>
+    <string name="save_event_Buttom">Save</string>
+
 </resources>
