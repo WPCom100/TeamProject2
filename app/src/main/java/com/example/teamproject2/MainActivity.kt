@@ -8,8 +8,13 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import androidx.recyclerview.widget.RecyclerView
+import com.example.teamproject2.ui.directory.PersonAdapter
 
 class MainActivity : AppCompatActivity() {
+
+    lateinit var layoutManager: RecyclerView.LayoutManager
+    lateinit var adapter: RecyclerView.Adapter<PersonAdapter.ViewHolder>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

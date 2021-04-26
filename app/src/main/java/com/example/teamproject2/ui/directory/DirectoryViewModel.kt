@@ -1,4 +1,4 @@
-package com.example.teamproject2.ui.dashboard
+package com.example.teamproject2.ui.directory
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_directory"
-        android:name="com.example.teamproject2.ui.dashboard.DirectoryFragment"
+        android:name="com.example.teamproject2.ui.directory.DirectoryFragment"
         android:label="@string/title_Directory"
         tools:layout="@layout/fragment_directory" />
 
