@@ -12,6 +12,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.teamproject2.R
 import java.io.*
 import java.lang.Exception
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlin.collections.ArrayList
 
 
 class calendar_event_setup() : AppCompatActivity() {
@@ -32,6 +35,14 @@ class calendar_event_setup() : AppCompatActivity() {
         titlebox = findViewById<TextView>(R.id.title_textbox) // textbox for event title
         descbox = findViewById<TextView>(R.id.desc_textbox) // textbox for eveent description
         calendarthing = findViewById<CalendarView>(R.id.calendarView) // calendar widget
+
+        // Set the event initial calender date, if none selected as today
+        val today = Calendar.getInstance().time
+        val monthFormat = SimpleDateFormat("MM")
+        val dayFormat = SimpleDateFormat("dd")
+        this.Gmonth = monthFormat.format(today)
+        this.GDay = dayFormat.format(today)
+
 
         calendarthing.setOnDateChangeListener(OnDateChangeListener { view, year, month, dayOfMonth -> Gmonth = month.toString()
             GDay = dayOfMonth.toString()
