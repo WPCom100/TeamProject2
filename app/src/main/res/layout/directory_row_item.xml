@@ -26,7 +26,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/initail_first_last_name"
+        android:text="@string/initial_first_last_name"
         android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/img_profilePic"
         app:layout_constraintTop_toTopOf="parent" />
@@ -52,7 +52,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="4dp"
         android:autoLink="email"
-        android:text="@string/inital_email"
+        android:text="@string/initial_email"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/img_profilePic"
         app:layout_constraintTop_toBottomOf="@+id/txt_position" />
