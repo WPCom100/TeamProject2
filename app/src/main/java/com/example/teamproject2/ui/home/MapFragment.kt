@@ -25,7 +25,7 @@ class MapFragment : Fragment() {
         // Assign the layout
         val root = inflater.inflate(R.layout.fragment_map, container, false)
 
-        activity?.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_USER;
+        requireActivity().requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_USER;
 
         return root
     }
