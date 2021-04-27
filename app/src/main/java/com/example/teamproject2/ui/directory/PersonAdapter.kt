@@ -13,6 +13,7 @@ class PersonAdapter(var people: ArrayList<Person>) : RecyclerView.Adapter<Person
 
     class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
 
+        // Linking UI
         var imgAvatar: ImageView = itemView.findViewById(R.id.img_profilePic)
         var txtFullName: TextView = itemView.findViewById(R.id.txt_name)
         var txtPosition: TextView = itemView.findViewById(R.id.txt_position)
@@ -22,12 +23,15 @@ class PersonAdapter(var people: ArrayList<Person>) : RecyclerView.Adapter<Person
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 
+        // Inflate the directory row item into the recycler
         val view = LayoutInflater.from(parent.context).inflate(R.layout.directory_row_item, parent, false)
         return ViewHolder(view)
 
     }
 
     override fun getItemCount(): Int {
+
+        // Size of the list based on the number of people in it
         return people.size
     }
 

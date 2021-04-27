@@ -40,7 +40,7 @@ class DirectoryFragment : Fragment() {
 
     fun loadPeople() {
 
-        // Data should be stored another way, just don't know how to do another in Kotlin - Landry
+        // Data should be stored another way, just don't know how to do another in Kotlin - Landry (Using internal storage maybe?)
         people.add(Person(0, getString(R.string.firstName_0), getString(R.string.lastName_0), getString(R.string.position_0), getString(R.string.email_0)))
         people.add(Person(1, getString(R.string.firstName_1), getString(R.string.lastName_1), getString(R.string.position_1), getString(R.string.email_1)))
         people.add(Person(2, getString(R.string.firstName_2), getString(R.string.lastName_2), getString(R.string.position_2), getString(R.string.email_2)))
