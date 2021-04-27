@@ -10,4 +10,8 @@ class MapViewModel : ViewModel() {
         value = "This is home Fragment"
     }
     val text: LiveData<String> = _text
+
+
+
+
 }

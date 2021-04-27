@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TeamProject2">
+
         <activity android:name=".ui.calandar.calendar_event_setup"></activity>
         <activity
             android:name=".MainActivity"
