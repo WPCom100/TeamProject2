@@ -14,7 +14,7 @@ import java.io.*
 import java.lang.Exception
 
 
-class calendar_event_setup : AppCompatActivity() {
+class calendar_event_setup() : AppCompatActivity() {
     lateinit var titlebox: TextView
     lateinit var descbox: TextView
     lateinit var calendarthing: CalendarView
@@ -96,8 +96,8 @@ class calendar_event_setup : AppCompatActivity() {
         }
 
 
-
-
+        //intent.
+        finish()
     }
 
 }
