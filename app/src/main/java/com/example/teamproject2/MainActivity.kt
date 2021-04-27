@@ -1,5 +1,15 @@
 package com.example.teamproject2
 
+/*
+Team Project 2
+Professor Maxwell - Mobile Dev
+
+    Chase Rowlan
+    Landry Strickland
+    Justin Mabray
+    Clif Charuka
+
+*/
 import android.os.Bundle
 import android.util.Log
 import com.google.android.material.bottomnavigation.BottomNavigationView
