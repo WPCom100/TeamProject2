@@ -8,6 +8,9 @@
     <string name="event_title">Title</string>
     <string name="event_desc">Description</string>
     <string name="save_event_Buttom">Save</string>
+    <string name="savefile_Name">storage</string>
+
+
     <string name="profile_picture">Profile Picture</string>
     <string name="initial_first_last_name">Initial First Last Name</string>
     <string name="initial_position">Initial Position</string>
