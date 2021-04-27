@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firstName_0">Deborah</string>
+    <string name="lastName_0">Fleming</string>
+    <string name="position_0">Executive in Residence for Energy Programs</string>
+    <string name="email_0">dfleming@okcu.edu</string>
+
+    <string name="firstName_1">Matthew</string>
+    <string name="lastName_1">Paque</string>
+    <string name="position_1">Adjunct Professor, Energy Legal Studies</string>
+    <string name="email_1">matt.paque@tronox.com</string>
+
+    <string name="firstName_2">Bobby</string>
+    <string name="lastName_2">Wegener</string>
+    <string name="position_2">Adjunct Professor, Energy Management</string>
+    <string name="email_2">bobbywegener@yahoo.com</string>
+
+    <string name="firstName_3">Mitchell</string>
+    <string name="lastName_3">Gray</string>
+    <string name="position_3">Adjunct Professor, Energy Legal Studies</string>
+    <string name="email_3">mitchellg910@gmail.com</string>
+
+    <string name="firstName_4">Sabrina</string>
+    <string name="lastName_4">Davis</string>
+    <string name="position_4">Adjunct Professor, Energy Legal Studies</string>
+    <string name="email_4">sadavis@okcu.edu</string>
+
+    <string name="firstName_5">Andrea</string>
+    <string name="lastName_5">Martin</string>
+    <string name="position_5">Adjunct Professor, Energy Legal Studies</string>
+    <string name="email_5">amartin@ameagletitle.com</string>
+
+    <string name="firstName_6">Sue</string>
+    <string name="lastName_6">Arnall</string>
+    <string name="position_6">Executive in Residence</string>
+    <string name="email_6">sahamm@okcu.edu</string>
+
+    <string name="firstName_7">Maranda</string>
+    <string name="lastName_7">Kitchingham</string>
+    <string name="position_7">Director of Outreach and Special Projects</string>
+    <string name="email_7">mjkitchingham@okcu.edu</string>
+
+    <string name="firstName_8">Jason</string>
+    <string name="lastName_8">Flores</string>
+    <string name="position_8">Associate Professor of Marketing</string>
+    <string name="email_8">njflores@okcu.edu</string>
+
+    <string name="firstName_9">James</string>
+    <string name="lastName_9">Guzak</string>
+    <string name="position_9">Associate Professor of Management</string>
+    <string name="email_9">jrguzak@okcu.edu</string>
+</resources>

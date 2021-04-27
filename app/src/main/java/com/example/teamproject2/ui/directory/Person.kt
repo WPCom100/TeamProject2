@@ -7,7 +7,7 @@ data class Person(var id: Int, var firstName: String, var lastName: String, var 
 
      init {
 
-         this.avatarImg = "avatar_${id}_${lastName}"
+         this.avatarImg = "${lastName.toLowerCase()}_${id}"
          this.fullName = "$firstName $lastName"
 
      }
